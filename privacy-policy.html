@@ -16,6 +16,7 @@
     th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: left; vertical-align: top; }
     th { background: #f5f5f5; }
     a { color: #0b57d0; }
+    .note { font-size: 0.9rem; color: #444; border-left: 3px solid #ccc; padding-left: 12px; margin: 16px 0; }
   </style>
 </head>
 <body>
@@ -24,21 +25,22 @@
 
   <div class="meta">
     <p><strong>App:</strong> Volum<br>
-    <strong>Developer:</strong> Bouncing Ball Entertainment<br>
+    <strong>Developer / data controller:</strong> Bouncing Ball Entertainment<br>
     <strong>Contact:</strong> <a href="mailto:bouncingballentertainment@gmail.com">bouncingballentertainment@gmail.com</a></p>
   </div>
 
   <h2>1. Introduction</h2>
-  <p>Volum (“we,” “our,” or “the app”) is a fitness and workout tracking application for Android and iOS. This Privacy Policy explains how information is handled when you use Volum.</p>
-  <p>By using Volum, you agree to this Privacy Policy. If you do not agree, please do not use the app.</p>
+  <p>Volum (“we,” “our,” or “the app”) is a fitness and workout tracking application for Android and iOS. This Privacy Policy describes how information is handled when you use Volum, as of the date above.</p>
+  <p>We aim to describe our practices accurately. <strong>If the app’s behavior or our use of third-party services changes, we will update this policy</strong> and the “Last updated” date. By using Volum, you agree to this Privacy Policy. If you do not agree, please do not use the app.</p>
+  <p class="note"><strong>Important:</strong> This policy is a plain-language summary for users and stores. It is not personalized legal advice. Laws differ by country and region; if you need advice for your situation, consult a qualified attorney.</p>
 
   <h2>2. Your workout data stays on your device</h2>
   <p>The core data that describes your training — workouts, exercises, sets, reps, weights, rest times, session history, achievements, preferences, and optional profile fields (such as name, age, sex, height, or weight used for recommendations) — is stored <strong>locally on your device</strong> using on-device storage (for example app storage and the device file system). Sensitive profile fields may be stored in encrypted form on the device.</p>
-  <p><strong>We do not upload your workout logs, exercise photos, or profile biometrics to our servers.</strong> There is no Volum-owned cloud database of your training content.</p>
-  <p>Data leaves your device only when <strong>you</strong> choose to export or share it (for example a backup file), or in the limited third-party cases described in Section 3.</p>
+  <p><strong>We do not operate a Volum-owned cloud service that stores your full workout logs, exercise photos, or profile biometrics for our own use.</strong> AI Coach and tracking features in the app work from data on your device as implemented in the version you install.</p>
+  <p>Data leaves your device when <strong>you</strong> choose to export or share it (for example a backup file), when you send an optional bug report, or in the limited third-party cases described in Section 3 (for example purchases, ads on the free tier, or crash diagnostics).</p>
 
   <h2>3. Third-party services</h2>
-  <p>We use the following categories of services. Each has its own privacy policy; we encourage you to read them.</p>
+  <p>We use the following categories of services. Each has its own privacy policy; we encourage you to read them. Their practices govern data they process.</p>
   <table>
     <thead>
       <tr>
@@ -51,17 +53,17 @@
       <tr>
         <td><strong>Apple App Store</strong> / <strong>Google Play</strong></td>
         <td>In-app purchases and subscriptions (including free trials where offered)</td>
-        <td>Payment is processed by the platform. We do not receive your full card number. The platform shares purchase-related signals with our subscription partner (RevenueCat) so the app can unlock Premium features.</td>
+        <td>Payment is processed by the platform. We do not receive your full card number. The platform shares purchase-related information with our subscription partner (RevenueCat) so the app can unlock Premium features.</td>
       </tr>
       <tr>
         <td><strong>RevenueCat</strong></td>
         <td>Subscription status, restore purchases, entitlements</td>
-        <td>Purchase and entitlement information from Apple/Google, app and device identifiers as described in <a href="https://www.revenuecat.com/privacy" rel="noopener noreferrer">RevenueCat’s Privacy Policy</a>. Not your workout database.</td>
+        <td>Purchase and entitlement information from Apple/Google, and identifiers as described in <a href="https://www.revenuecat.com/privacy" rel="noopener noreferrer">RevenueCat’s Privacy Policy</a>. This is separate from your workout database stored on the device.</td>
       </tr>
       <tr>
         <td><strong>Google Mobile Ads (AdMob)</strong></td>
         <td>Advertising on the <strong>free tier</strong> only (Premium is ad-free)</td>
-        <td>Ad delivery may use identifiers and technical data under <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google’s Privacy Policy</a>. We aim to use non-personalized or limited personalization flows where appropriate; see Section 4.</td>
+        <td>Ad delivery may use identifiers and technical data under <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google’s Privacy Policy</a>. We aim to use non-personalized or limited personalization where appropriate; see Section 4.</td>
       </tr>
       <tr>
         <td><strong>Google User Messaging Platform (UMP)</strong></td>
@@ -71,16 +73,16 @@
       <tr>
         <td><strong>Formspree</strong></td>
         <td>Optional “Report a Bug” emails</td>
-        <td>Only the text you submit in the bug form and related metadata Formspree needs to deliver the message. See <a href="https://formspree.io/legal/privacy-policy" rel="noopener noreferrer">Formspree’s Privacy Policy</a>.</td>
+        <td>What you type in the form plus metadata Formspree needs to deliver the message. <strong>Do not paste passwords, full medical histories, or other sensitive information</strong> into bug reports. See <a href="https://formspree.io/legal/privacy-policy" rel="noopener noreferrer">Formspree’s Privacy Policy</a>.</td>
       </tr>
       <tr>
         <td><strong>Sentry</strong> (if enabled in your build)</td>
         <td>Crash and error diagnostics</td>
-        <td>Technical diagnostics (for example stack traces, app version, device/OS). We do not use Sentry to collect your workout content. Enabled only when our error-reporting configuration is active.</td>
+        <td>Technical diagnostics (for example stack traces, app version, device/OS). We configure Sentry for stability and <strong>do not intend</strong> to collect your workout content; crash data could theoretically include fragments of technical context—see <a href="https://sentry.io/privacy/" rel="noopener noreferrer">Sentry’s policy</a>.</td>
       </tr>
     </tbody>
   </table>
-  <p>We <strong>do not sell</strong> your personal information. We do not use a separate third-party analytics product to track how you tap through the app for marketing purposes.</p>
+  <p>We <strong>do not sell your personal information for money</strong>. We do not use a separate third-party analytics SDK whose primary purpose is marketing funnel tracking inside the app. <strong>“Sell,” “share,” and similar terms</strong> may have specific meanings under U.S. state laws; if you believe a specific right applies to you, contact us (Section 13).</p>
 
   <h2>4. Advertising and consent</h2>
   <p>If you use Volum on the <strong>free tier</strong>, you may see ads served through Google AdMob. <strong>Premium subscribers</strong> are not shown these ads.</p>
@@ -96,6 +98,7 @@
 
   <h2>6. Security</h2>
   <p>Workout and profile data is stored on your device. A random on-device identifier may be used for local encryption key derivation; it is not sent to our servers for tracking.</p>
+  <p>No method of storage or transmission is 100% secure. You are responsible for device security (passcode, OS updates) and for any copies you export.</p>
 
   <h2>7. Data retention and deletion</h2>
   <ul>
@@ -104,20 +107,33 @@
     <li><strong>Purchases:</strong> Apple and Google (and RevenueCat as processor) retain purchase records according to their policies for billing, tax, and fraud prevention.</li>
     <li><strong>Ad / crash partners:</strong> Retention per Google’s and Sentry’s policies.</li>
   </ul>
+  <p>To ask about data held by <strong>us</strong> through bug reports or similar voluntary submissions, email us. We cannot delete Apple’s, Google’s, Google’s ad systems’, or RevenueCat’s records on your behalf; use platform and partner tools where available.</p>
 
   <h2>8. Children</h2>
-  <p>Volum is not directed at children under 13. We do not knowingly collect personal information from children under 13. Contact us if you believe this has occurred.</p>
+  <p>Volum is not directed at children under 13 (or the minimum age required in your jurisdiction). We do not knowingly collect personal information from children under that age. If you believe a child has provided information through the app, contact us and we will take appropriate steps.</p>
 
-  <h2>9. International users</h2>
-  <p>Volum may be used in many countries. Third parties listed above may process data in the United States or other regions. By using the app and those features, you understand that such processing may occur.</p>
+  <h2>9. International users and transfers</h2>
+  <p>Volum may be used in many countries. We are based in the United States. Third parties listed in Section 3 may process data in the United States or other regions. By using features that rely on those services, you understand that <strong>cross-border transfers</strong> may occur as permitted by applicable law.</p>
 
-  <h2>10. Changes</h2>
-  <p>We may update this Privacy Policy. The “Last updated” date will change when we do. Continued use after an update means you accept the revised policy.</p>
+  <h2>10. Regional privacy rights</h2>
+  <p>Depending on where you live, you may have rights to access, correct, delete, restrict, or object to certain processing, to port data, or to withdraw consent where processing is based on consent. You may also have the right to complain to a supervisory authority.</p>
+  <ul>
+    <li><strong>EEA, UK, and similar regimes:</strong> We rely on bases such as <strong>contract</strong> (providing the app and purchases), <strong>legitimate interests</strong> (for example security and crash diagnostics, where applicable), and <strong>consent</strong> where required (for example certain advertising choices). Contact us to exercise rights; you may also contact your local data protection authority.</li>
+    <li><strong>California, USA:</strong> Residents may have rights under the CPRA, including to know, delete, and correct personal information, and to opt out of certain “sharing” for cross-context behavioral advertising. We state above that we do not sell personal information for money. For ad-related rights, you may also use available device and Google settings; contact us for requests we can fulfill directly.</li>
+    <li><strong>Other U.S. states and countries:</strong> Additional laws may apply. Email us and we will respond consistent with applicable law.</li>
+  </ul>
+  <p>We may need to verify your request where the law allows. We will not discriminate against you for exercising lawful privacy rights.</p>
 
-  <h2>11. Contact</h2>
-  <p>Questions about this policy or your data:<br>
+  <h2>11. Fitness and wellness (not medical advice)</h2>
+  <p>Volum is for <strong>personal fitness tracking</strong>. It is <strong>not</strong> a medical device and <strong>does not</strong> provide medical advice, diagnosis, or treatment. Information in the app is not a substitute for a qualified health professional. You use the app at your own risk.</p>
+
+  <h2>12. Changes</h2>
+  <p>We may update this Privacy Policy. The “Last updated” date will change when we do. If changes are material, we will use reasonable means to notify you where required (for example an in-app notice or store description). Continued use after an update means you accept the revised policy unless applicable law requires otherwise.</p>
+
+  <h2>13. Contact</h2>
+  <p>Privacy questions or requests:<br>
   <a href="mailto:bouncingballentertainment@gmail.com">bouncingballentertainment@gmail.com</a><br>
   Bouncing Ball Entertainment</p>
-  <p>You may also use <strong>Settings → About → Report a Bug</strong> in the app for privacy-related requests tied to a technical issue (optional).</p>
+  <p>You may also use <strong>Settings → About → Report a Bug</strong> in the app for technical issues (optional). For privacy-specific requests, email is preferred so we can track your request.</p>
 </body>
 </html>
