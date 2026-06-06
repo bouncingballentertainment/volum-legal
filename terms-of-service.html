@@ -1,84 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Volum — Terms of Service</title>
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px; line-height: 1.6; color: #1a1a1a; }
-    h1 { font-size: 1.5rem; margin-top: 0; }
-    h2 { font-size: 1.15rem; margin-top: 28px; }
-    p, li { margin: 8px 0; }
-    ul { padding-left: 24px; }
-    .meta { color: #555; font-size: 0.95rem; margin-bottom: 24px; }
-    .updated { color: #666; font-size: 0.9rem; }
-    a { color: #0b57d0; }
-    .note { font-size: 0.9rem; color: #444; border-left: 3px solid #ccc; padding-left: 12px; margin: 16px 0; }
-    .caps { text-transform: uppercase; font-size: 0.95rem; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 24px 16px; color: #1a1a1a; line-height: 1.6; }
+    h1 { font-size: 1.8rem; margin-bottom: 4px; }
+    h2 { font-size: 1.1rem; margin-top: 2rem; }
+    ul { padding-left: 1.4rem; }
+    li { margin-bottom: 0.4rem; }
+    a { color: #007aff; }
+    .lang-bar { display: flex; gap: 8px; margin-bottom: 24px; }
+    .lang-btn { padding: 6px 16px; border: 1px solid #ccc; border-radius: 20px; background: #fff; cursor: pointer; font-size: 0.9rem; }
+    .lang-btn.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+    footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #eee; font-size: 0.9rem; }
   </style>
 </head>
 <body>
+
+<div class="lang-bar">
+  <button class="lang-btn active" onclick="setLang('en')">English</button>
+  <button class="lang-btn" onclick="setLang('pt')">Português</button>
+  <button class="lang-btn" onclick="setLang('es')">Español</button>
+</div>
+
+<!-- ═══════════════════════════════ ENGLISH ═══════════════════════════════ -->
+<div id="lang-en" class="lang-section active">
   <h1>Terms of Service — Volum</h1>
-  <p class="updated">Last updated: May 6, 2026</p>
+  <p><em>Last updated: May 6, 2026</em><br>
+  <strong>App:</strong> Volum<br>
+  <strong>Developer:</strong> Bouncing Ball Entertainment<br>
+  <strong>Contact:</strong> <a href="mailto:bouncingballentertainment@gmail.com">bouncingballentertainment@gmail.com</a><br>
+  <strong>Privacy Policy:</strong> <a href="privacy-policy.html">privacy-policy.html</a> (same site)</p>
 
-  <div class="meta">
-    <p><strong>App:</strong> Volum<br>
-    <strong>Developer:</strong> Bouncing Ball Entertainment<br>
-    <strong>Contact:</strong> <a href="mailto:bouncingballentertainment@gmail.com">bouncingballentertainment@gmail.com</a><br>
-    <strong>Privacy Policy:</strong> <a href="privacy-policy.html">privacy-policy.html</a> (same site)</p>
-  </div>
-
-  <p class="note"><strong>Important:</strong> These Terms are a practical, plain-language agreement for users and stores. They are <strong>not</strong> a substitute for advice from a <strong>qualified attorney</strong> in your country or U.S. state—especially for <strong>governing law, venue, arbitration,</strong> and <strong>consumer</strong> rules. Have counsel review before you rely on them for a commercial launch.</p>
+  <p><strong>Important:</strong> These Terms are a practical, plain-language agreement for users and stores. They are <strong>not</strong> a substitute for advice from a <strong>qualified attorney</strong> in your country or U.S. state—especially for <strong>governing law, venue, arbitration,</strong> and <strong>consumer</strong> rules. Have counsel review before you rely on them for a commercial launch.</p>
 
   <h2>1. Acceptance of Terms</h2>
-  <p>By downloading, installing, accessing, or using Volum (“the <strong>App</strong>”), you agree to these Terms of Service (“<strong>Terms</strong>”) and to our <a href="privacy-policy.html">Privacy Policy</a>. If you do not agree, do not use the App.</p>
-  <p>We may offer a <strong>free tier</strong> (which may include advertising) and <strong>paid</strong> features (“<strong>Premium</strong>” or similar branding). Your use of paid features is also subject to <strong>Apple</strong> / <strong>Google</strong> payment and subscription rules.</p>
+  <p>By downloading, installing, accessing, or using Volum ("the <strong>App</strong>"), you agree to these Terms of Service ("Terms") and to our <a href="privacy-policy.html">Privacy Policy</a>. If you do not agree, do not use the App.</p>
+  <p>We may offer a <strong>free tier</strong> (which may include advertising) and <strong>paid</strong> features ("Premium" or similar branding). Your use of paid features is also subject to <strong>Apple</strong> / <strong>Google</strong> payment and subscription rules.</p>
 
   <h2>2. Eligibility</h2>
   <p>The App is intended for users who meet the <strong>minimum age</strong> required in your jurisdiction (typically <strong>13+</strong> in the U.S., often <strong>16</strong> or higher in the EEA/UK for certain services). If you are under that age, do not use the App. If you use the App on behalf of an organization, you represent that you have authority to bind that organization.</p>
 
   <h2>3. Nature of the App</h2>
-  <p>Volum is a <strong>workout tracking and fitness logging</strong> application. It helps you log exercises, sets, reps, weights, rest times, and related progress, and may show <strong>on-device</strong> suggestions (for example “AI Coach” style recommendations) based on information <strong>stored on your device</strong>.</p>
+  <p>Volum is a <strong>workout tracking and fitness logging</strong> application. It helps you log exercises, sets, reps, weights, rest times, and related progress, and may show <strong>on-device</strong> suggestions (for example "AI Coach" style recommendations) based on information <strong>stored on your device</strong>.</p>
   <p><strong>The App is for personal, informational, and organizational use only.</strong> It is <strong>not</strong> a medical device and <strong>does not</strong> provide medical, clinical, or professional advice.</p>
 
-  <h2>4. No medical or professional advice</h2>
+  <h2>4. No Medical or Professional Advice</h2>
   <ul>
     <li>Nothing in the App (including AI Coach or any recommendations) is <strong>medical</strong>, <strong>nutritional</strong>, or <strong>professional</strong> advice.</li>
     <li><strong>Always consult a qualified healthcare or fitness professional</strong> before starting or changing exercise, especially if you have health conditions, injuries, or concerns.</li>
     <li><strong>Do not</strong> use the App for diagnosis, treatment, or prevention of any disease or condition.</li>
   </ul>
 
-  <h2>5. Assumption of risk; release (fitness activities)</h2>
+  <h2>5. Assumption of Risk; Release (Fitness Activities)</h2>
   <p><strong>Physical activity involves risk</strong> (e.g. injury, aggravation of existing conditions, cardiovascular events). <strong>You voluntarily assume all risks</strong> connected with your use of the App and any exercise you perform, whether or not you follow suggestions shown in the App.</p>
-  <p><strong>To the maximum extent permitted by applicable law</strong>, you <strong>release</strong>, <strong>waive</strong>, and <strong>discharge</strong> Bouncing Ball Entertainment and its owners, contractors, and affiliates from <strong>claims, damages, losses, and liabilities</strong> of any kind arising out of or related to your use of the App or any fitness activity, including personal injury or death, <strong>whether or not</strong> caused by our negligence or the App’s content, except where such a release is <strong>prohibited</strong> by mandatory law (for example certain consumer or personal-injury rules in your country).</p>
+  <p><strong>To the maximum extent permitted by applicable law</strong>, you <strong>release</strong>, <strong>waive</strong>, and <strong>discharge</strong> Bouncing Ball Entertainment and its owners, contractors, and affiliates from <strong>claims, damages, losses, and liabilities</strong> of any kind arising out of or related to your use of the App or any fitness activity, including personal injury or death, <strong>whether or not</strong> caused by our negligence or the App's content, except where such a release is <strong>prohibited</strong> by mandatory law.</p>
 
-  <h2>6. Subscriptions, purchases, and trials</h2>
+  <h2>6. Subscriptions, Purchases, and Trials</h2>
   <ul>
     <li><strong>Billing.</strong> Paid features are sold via <strong>Apple App Store</strong> and/or <strong>Google Play</strong>. <strong>Apple</strong> and <strong>Google</strong> (not Bouncing Ball Entertainment) process payments. We do not receive your full payment-card details.</li>
-    <li><strong>Prices, trials, renewal, cancellation, and refunds</strong> are governed by the <strong>platform’s</strong> terms and your account settings with Apple or Google. Any <strong>free trial</strong> duration and eligibility are set in the store, not by us, unless the App explicitly states otherwise in a way that matches the store.</li>
-    <li><strong>Entitlements.</strong> We may use a third party (for example <strong>RevenueCat</strong>) to verify subscription status and “restore purchases.” <strong>Premium</strong> features are unlocked only while your entitlement is valid per the store and our App configuration.</li>
-    <li><strong>Changes.</strong> We may change <strong>pricing</strong>, <strong>features</strong> included in Premium, or <strong>free-tier limits</strong> with reasonable notice where required by law or platform rules. Existing subscriptions may be governed by the store’s rules for price changes.</li>
-    <li><strong>Seasonal or limited products.</strong> Some one-time offers (for example <strong>lifetime</strong> access) may be sold only during certain periods defined in the stores. <strong>If you purchased when available, you may retain the right to restore</strong> per platform rules and our App behavior.</li>
+    <li><strong>Prices, trials, renewal, cancellation, and refunds</strong> are governed by the <strong>platform's</strong> terms and your account settings with Apple or Google.</li>
+    <li><strong>Entitlements.</strong> We may use a third party (for example <strong>RevenueCat</strong>) to verify subscription status and "restore purchases." <strong>Premium</strong> features are unlocked only while your entitlement is valid per the store and our App configuration.</li>
+    <li><strong>Changes.</strong> We may change <strong>pricing</strong>, <strong>features</strong> included in Premium, or <strong>free-tier limits</strong> with reasonable notice where required by law or platform rules.</li>
+    <li><strong>Seasonal or limited products.</strong> Some one-time offers (for example <strong>lifetime</strong> access) may be sold only during certain periods. <strong>If you purchased when available, you may retain the right to restore</strong> per platform rules and our App behavior.</li>
   </ul>
 
-  <h2>7. Free tier and advertising</h2>
+  <h2>7. Free Tier and Advertising</h2>
   <ul>
-    <li>The <strong>free tier</strong> may display <strong>third-party advertisements</strong> (for example through <strong>Google AdMob</strong>). Ad delivery may involve data practices described in our <a href="privacy-policy.html">Privacy Policy</a> and the ad partner’s policies.</li>
-    <li><strong>Premium</strong> is intended to be <strong>ad-free</strong> for in-app ad placements we control, as described in the App and Privacy Policy.</li>
-    <li><strong>Consent.</strong> Where required (for example in certain regions), the App may show a <strong>consent</strong> flow before personalized ads. Your choices are managed through that flow and device/platform settings where applicable.</li>
+    <li>The <strong>free tier</strong> may display <strong>third-party advertisements</strong> (for example through <strong>Google AdMob</strong>). Ad delivery may involve data practices described in our <a href="privacy-policy.html">Privacy Policy</a> and the ad partner's policies.</li>
+    <li><strong>Premium</strong> is intended to be <strong>ad-free</strong> for in-app ad placements we control.</li>
+    <li><strong>Consent.</strong> Where required, the App may show a <strong>consent</strong> flow before personalized ads. Your choices are managed through that flow and device/platform settings.</li>
   </ul>
 
-  <h2>8. Third-party services and platform rules</h2>
+  <h2>8. Third-Party Services and Platform Rules</h2>
   <ul>
-    <li>The App relies on <strong>third-party</strong> services (stores, subscription verification, ads, optional crash reporting, optional bug-report delivery, etc.). Their terms and privacy policies <strong>also apply</strong>. See our <a href="privacy-policy.html">Privacy Policy</a> for a non-exhaustive list.</li>
-    <li><strong>Apple.</strong> If you use the iOS version, the <a href="https://www.apple.com/legal/internet-services/itunes/" rel="noopener noreferrer">Apple Media Services Terms</a> and other Apple terms may apply. Apple is not responsible for the App’s content, maintenance, or support.</li>
+    <li>The App relies on <strong>third-party</strong> services (stores, subscription verification, ads, optional crash reporting, optional bug-report delivery, etc.). Their terms and privacy policies <strong>also apply</strong>. See our <a href="privacy-policy.html">Privacy Policy</a> for a list.</li>
+    <li><strong>Apple.</strong> If you use the iOS version, the <a href="https://www.apple.com/legal/internet-services/itunes/">Apple Media Services Terms</a> may apply. Apple is not responsible for the App's content, maintenance, or support.</li>
     <li><strong>Google.</strong> If you use the Android version, <strong>Google Play</strong> terms apply to distribution and certain billing matters.</li>
   </ul>
 
-  <h2>9. Your data and backups</h2>
+  <h2>9. Your Data and Backups</h2>
   <p>Workout and profile data are primarily stored <strong>on your device</strong>, as described in the Privacy Policy. <strong>You are responsible</strong> for backups, exports, and device security. We are <strong>not liable</strong> for data loss on your device unless mandatory law says otherwise.</p>
 
-  <h2>10. Acceptable use</h2>
+  <h2>10. Acceptable Use</h2>
   <p>You agree <strong>not</strong> to:</p>
   <ul>
     <li>Use the App unlawfully or in a way that harms others;</li>
@@ -88,48 +96,294 @@
   </ul>
   <p>We may <strong>suspend or stop</strong> providing the App or certain features if we reasonably believe you violated these Terms or applicable law.</p>
 
-  <h2>11. Intellectual property</h2>
-  <p>The App (code, design, branding, and original content) is owned by <strong>Bouncing Ball Entertainment</strong> or its licensors. We grant you a <strong>personal, non-exclusive, non-transferable, revocable</strong> license to use the App per these Terms and store rules. You may not copy, modify, distribute, or create derivative works except as <strong>allowed by law</strong> (for example fair use) or with our <strong>written</strong> permission.</p>
+  <h2>11. Intellectual Property</h2>
+  <p>The App (code, design, branding, and original content) is owned by <strong>Bouncing Ball Entertainment</strong> or its licensors. We grant you a <strong>personal, non-exclusive, non-transferable, revocable</strong> license to use the App per these Terms and store rules. You may not copy, modify, distribute, or create derivative works except as <strong>allowed by law</strong> or with our <strong>written</strong> permission.</p>
 
-  <h2>12. Disclaimer of warranties</h2>
-  <p class="caps">The App is provided “as is” and “as available.” To the maximum extent permitted by law, we disclaim all warranties, whether express, implied, or statutory, including implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
-  <p>We do <strong>not</strong> warrant uninterrupted or error-free operation, that content or suggestions are <strong>accurate</strong> or <strong>suitable for you</strong>, or that defects will be corrected.</p>
-  <p><strong>Some jurisdictions do not allow</strong> certain disclaimers; in those places, disclaimers apply only to the extent allowed.</p>
+  <h2>12. Disclaimer of Warranties</h2>
+  <p>The App is provided "as is" and "as available." To the maximum extent permitted by law, we disclaim all warranties, whether express, implied, or statutory, including implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
+  <p>We do <strong>not</strong> warrant uninterrupted or error-free operation, that content or suggestions are <strong>accurate</strong> or <strong>suitable for you</strong>, or that defects will be corrected. <strong>Some jurisdictions do not allow</strong> certain disclaimers; in those places, disclaimers apply only to the extent allowed.</p>
 
-  <h2>13. Limitation of liability</h2>
-  <p class="caps">To the maximum extent permitted by applicable law:</p>
+  <h2>13. Limitation of Liability</h2>
+  <p>To the maximum extent permitted by applicable law:</p>
   <ul>
     <li><strong>Bouncing Ball Entertainment</strong> and its owners, contractors, and affiliates <strong>will not</strong> be liable for <strong>indirect, incidental, special, consequential, exemplary, or punitive</strong> damages, or for <strong>loss of profits, data, goodwill, or business</strong>, arising from your use of or inability to use the App, <strong>even if</strong> we were advised such damages were possible.</li>
-    <li><strong>Total liability</strong> for any claim arising from the App or these Terms is limited to the <strong>greater of</strong> (a) <strong>USD $50</strong> or (b) the <strong>total amount you paid to us for Premium through the App in the twelve (12) months</strong> before the event giving rise to the claim (fees paid to <strong>Apple/Google</strong> are processed by them; for this cap, “paid to us” means amounts <strong>actually received by Bouncing Ball Entertainment</strong> for your subscription or purchase, if determinable, otherwise (a) alone).</li>
-    <li><strong>Mandatory consumer laws</strong> in your country (including EU/UK consumer rules) may <strong>not allow</strong> some limitations; in that case, our liability is limited to the <strong>minimum</strong> extent still permitted.</li>
+    <li><strong>Total liability</strong> for any claim is limited to the <strong>greater of</strong> (a) <strong>USD $50</strong> or (b) the <strong>total amount you paid to us for Premium through the App in the twelve (12) months</strong> before the event giving rise to the claim.</li>
+    <li><strong>Mandatory consumer laws</strong> in your country may <strong>not allow</strong> some limitations; in that case, our liability is limited to the <strong>minimum</strong> extent still permitted.</li>
   </ul>
 
   <h2>14. Indemnity</h2>
-  <p>To the extent permitted by law, you agree to <strong>defend</strong>, <strong>indemnify</strong>, and hold harmless Bouncing Ball Entertainment and its owners, contractors, and affiliates from <strong>claims, damages, losses, and expenses</strong> (including reasonable attorneys’ fees) arising from <strong>your</strong> misuse of the App, <strong>your</strong> violation of these Terms, or <strong>your</strong> violation of others’ rights—except to the extent caused by our <strong>willful misconduct</strong> or where indemnity is <strong>not allowed</strong> by law.</p>
+  <p>To the extent permitted by law, you agree to <strong>defend</strong>, <strong>indemnify</strong>, and hold harmless Bouncing Ball Entertainment and its owners, contractors, and affiliates from <strong>claims, damages, losses, and expenses</strong> (including reasonable attorneys' fees) arising from <strong>your</strong> misuse of the App, <strong>your</strong> violation of these Terms, or <strong>your</strong> violation of others' rights—except to the extent caused by our <strong>willful misconduct</strong> or where indemnity is <strong>not allowed</strong> by law.</p>
 
-  <h2>15. Disputes; governing law; venue</h2>
+  <h2>15. Disputes; Governing Law; Venue</h2>
   <ul>
     <li><strong>Informal resolution first.</strong> Before filing a claim, contact us at <a href="mailto:bouncingballentertainment@gmail.com">bouncingballentertainment@gmail.com</a> and describe the dispute; we will try to resolve it in good faith.</li>
-    <li><strong>Governing law.</strong> Except where <strong>mandatory local law</strong> (for example <strong>EEA/UK consumer law</strong>) requires otherwise, these Terms are governed by the laws of the <strong>United States</strong> and the laws of the <strong>U.S. state where Bouncing Ball Entertainment is primarily located</strong>, <strong>without regard to conflict-of-law rules</strong> that would require applying another jurisdiction’s laws.</li>
-    <li><strong>Venue.</strong> Subject to <strong>mandatory consumer protections</strong>, you agree that courts in that <strong>same U.S. state</strong> have <strong>personal jurisdiction</strong> for disputes not subject to exclusive platform or arbitration rules—<strong>unless</strong> applicable law gives you the <strong>right</strong> to sue in your <strong>home country</strong> (many consumers in the EU/UK have that right). <strong>Confirm venue and choice of law with counsel</strong> if you operate globally.</li>
-    <li><strong>Apple.</strong> If you are an Apple user, and <strong>mandatory</strong> Apple terms address disputes, those terms may also apply as required.</li>
+    <li><strong>Governing law.</strong> Except where <strong>mandatory local law</strong> requires otherwise, these Terms are governed by the laws of the <strong>United States</strong> and the laws of the <strong>U.S. state where Bouncing Ball Entertainment is primarily located</strong>, without regard to conflict-of-law rules.</li>
+    <li><strong>Venue.</strong> Subject to <strong>mandatory consumer protections</strong>, you agree that courts in that <strong>same U.S. state</strong> have <strong>personal jurisdiction</strong> for disputes—<strong>unless</strong> applicable law gives you the <strong>right</strong> to sue in your <strong>home country</strong>.</li>
+    <li><strong>Apple.</strong> If you are an Apple user, mandatory Apple terms addressing disputes may also apply.</li>
   </ul>
-  <p><strong>Class actions.</strong> Where <strong>permitted by law</strong>, you and we agree to bring claims <strong>only in an individual capacity</strong>, not as a plaintiff or class member in a class action. <strong>Some jurisdictions prohibit</strong> class-action waivers; if so, this sentence does not apply to you.</p>
+  <p><strong>Class actions.</strong> Where <strong>permitted by law</strong>, you and we agree to bring claims <strong>only in an individual capacity</strong>. <strong>Some jurisdictions prohibit</strong> class-action waivers; if so, this sentence does not apply to you.</p>
 
   <h2>16. Changes to the App and Terms</h2>
-  <p>We may modify the App or these Terms. We will update the <strong>“Last updated”</strong> date when we change the Terms. If a change is <strong>material</strong>, we will provide notice <strong>where required</strong> (for example in-app or by email). <strong>Continued use</strong> after the effective date means you accept the revised Terms, except where applicable law requires <strong>explicit consent</strong> for certain changes.</p>
+  <p>We may modify the App or these Terms. We will update the <strong>"Last updated"</strong> date when we change the Terms. If a change is <strong>material</strong>, we will provide notice <strong>where required</strong>. <strong>Continued use</strong> after the effective date means you accept the revised Terms, except where applicable law requires <strong>explicit consent</strong>.</p>
 
   <h2>17. Termination</h2>
-  <p>You may stop using the App at any time. We may <strong>suspend</strong> or <strong>discontinue</strong> the App or features. <strong>Sections</strong> that by their nature should survive (for example limitations of liability, indemnity, governing law, dispute resolution) <strong>survive</strong> termination.</p>
+  <p>You may stop using the App at any time. We may <strong>suspend</strong> or <strong>discontinue</strong> the App or features. <strong>Sections</strong> that by their nature should survive (limitations of liability, indemnity, governing law, dispute resolution) <strong>survive</strong> termination.</p>
 
-  <h2>18. Severability; entire agreement</h2>
-  <p>If any provision is <strong>invalid</strong> or <strong>unenforceable</strong>, the remainder stays in effect. These Terms and the Privacy Policy are the <strong>entire agreement</strong> between you and us regarding the App and supersede prior oral or written understandings on that subject.</p>
+  <h2>18. Severability; Entire Agreement</h2>
+  <p>If any provision is <strong>invalid</strong> or <strong>unenforceable</strong>, the remainder stays in effect. These Terms and the Privacy Policy are the <strong>entire agreement</strong> between you and us regarding the App.</p>
 
   <h2>19. Contact</h2>
   <p><strong>Email:</strong> <a href="mailto:bouncingballentertainment@gmail.com">bouncingballentertainment@gmail.com</a><br>
   <strong>Developer:</strong> Bouncing Ball Entertainment</p>
-
   <p><em>By using Volum, you acknowledge that you have read these Terms and our Privacy Policy, that you understand the risks of physical activity, and that you use the App at your own risk.</em></p>
-  <p style="color:#666;font-size:0.9rem;"><a href="index.html">← Legal documents</a> · <a href="privacy-policy.html">Privacy Policy</a></p>
+
+  <footer>
+    <a href="index.html">← Legal documents</a> · <a href="privacy-policy.html">Privacy Policy</a>
+  </footer>
+</div>
+
+<!-- ══════════════════════════════ PORTUGUÊS ══════════════════════════════ -->
+<div id="lang-pt" class="lang-section">
+  <h1>Termos de Serviço — Volum</h1>
+  <p><em>Última atualização: 6 de maio de 2026</em><br>
+  <strong>Aplicativo:</strong> Volum<br>
+  <strong>Desenvolvedor:</strong> Bouncing Ball Entertainment<br>
+  <strong>Contato:</strong> <a href="mailto:bouncingballentertainment@gmail.com">bouncingballentertainment@gmail.com</a><br>
+  <strong>Política de Privacidade:</strong> <a href="privacy-policy.html">privacy-policy.html</a> (mesmo site)</p>
+
+  <p><strong>Importante:</strong> Estes Termos são um acordo prático e em linguagem simples para usuários e lojas. Eles <strong>não</strong> substituem o aconselhamento de um <strong>advogado qualificado</strong> no seu país ou estado — especialmente para <strong>lei aplicável, foro, arbitragem</strong> e <strong>regras de consumo</strong>. Consulte um advogado antes de utilizá-los para um lançamento comercial.</p>
+
+  <h2>1. Aceitação dos Termos</h2>
+  <p>Ao baixar, instalar, acessar ou usar o Volum ("o <strong>Aplicativo</strong>"), você concorda com estes Termos de Serviço ("Termos") e com nossa <a href="privacy-policy.html">Política de Privacidade</a>. Se não concordar, não use o Aplicativo.</p>
+  <p>Podemos oferecer um <strong>plano gratuito</strong> (que pode incluir publicidade) e recursos <strong>pagos</strong> ("Premium" ou similar). O uso de recursos pagos também está sujeito às regras de pagamento e assinatura da <strong>Apple</strong> / <strong>Google</strong>.</p>
+
+  <h2>2. Elegibilidade</h2>
+  <p>O Aplicativo é destinado a usuários que atendam à <strong>idade mínima</strong> exigida na sua jurisdição (normalmente <strong>13 anos ou mais</strong> nos EUA, frequentemente <strong>16 anos</strong> ou mais no EEE/Reino Unido para determinados serviços). Se você for menor dessa idade, não use o Aplicativo. Se usar o Aplicativo em nome de uma organização, você declara ter autoridade para vinculá-la.</p>
+
+  <h2>3. Natureza do Aplicativo</h2>
+  <p>O Volum é um aplicativo de <strong>rastreamento de treinos e registro de atividades físicas</strong>. Ele ajuda você a registrar exercícios, séries, repetições, cargas, tempos de descanso e progresso relacionado, podendo exibir sugestões <strong>no dispositivo</strong> (por exemplo, recomendações estilo "AI Coach") com base em informações <strong>armazenadas no seu dispositivo</strong>.</p>
+  <p><strong>O Aplicativo é apenas para uso pessoal, informativo e organizacional.</strong> <strong>Não</strong> é um dispositivo médico e <strong>não</strong> fornece aconselhamento médico, clínico ou profissional.</p>
+
+  <h2>4. Sem Aconselhamento Médico ou Profissional</h2>
+  <ul>
+    <li>Nada no Aplicativo (incluindo o AI Coach ou quaisquer recomendações) constitui <strong>aconselhamento médico</strong>, <strong>nutricional</strong> ou <strong>profissional</strong>.</li>
+    <li><strong>Consulte sempre um profissional de saúde ou fitness qualificado</strong> antes de iniciar ou alterar exercícios, especialmente se tiver condições de saúde, lesões ou preocupações.</li>
+    <li><strong>Não</strong> use o Aplicativo para diagnóstico, tratamento ou prevenção de qualquer doença ou condição.</li>
+  </ul>
+
+  <h2>5. Assunção de Riscos; Isenção (Atividades Físicas)</h2>
+  <p><strong>A atividade física envolve riscos</strong> (ex.: lesões, agravamento de condições existentes, eventos cardiovasculares). <strong>Você assume voluntariamente todos os riscos</strong> relacionados ao uso do Aplicativo e a qualquer exercício que realize, independentemente de seguir ou não as sugestões exibidas no Aplicativo.</p>
+  <p><strong>Na máxima extensão permitida pela lei aplicável</strong>, você <strong>libera</strong>, <strong>renuncia</strong> e <strong>exime</strong> a Bouncing Ball Entertainment e seus proprietários, contratados e afiliados de <strong>reivindicações, danos, perdas e responsabilidades</strong> de qualquer tipo decorrentes do uso do Aplicativo ou de qualquer atividade física, incluindo lesão pessoal ou morte, exceto onde tal isenção seja <strong>proibida</strong> pela lei obrigatória.</p>
+
+  <h2>6. Assinaturas, Compras e Períodos de Teste</h2>
+  <ul>
+    <li><strong>Faturamento.</strong> Os recursos pagos são vendidos pela <strong>Apple App Store</strong> e/ou <strong>Google Play</strong>. A <strong>Apple</strong> e o <strong>Google</strong> (não a Bouncing Ball Entertainment) processam os pagamentos. Não recebemos seus dados completos de cartão.</li>
+    <li><strong>Preços, testes, renovação, cancelamento e reembolsos</strong> são regidos pelos <strong>termos da plataforma</strong> e pelas configurações da sua conta na Apple ou no Google.</li>
+    <li><strong>Direitos de acesso.</strong> Podemos usar um terceiro (por exemplo, <strong>RevenueCat</strong>) para verificar o status da assinatura e "restaurar compras." Os recursos <strong>Premium</strong> são desbloqueados apenas enquanto seu direito de acesso for válido conforme a loja e a configuração do Aplicativo.</li>
+    <li><strong>Alterações.</strong> Podemos alterar <strong>preços</strong>, <strong>recursos</strong> incluídos no Premium ou <strong>limites do plano gratuito</strong> com aviso razoável onde exigido por lei ou pelas regras da plataforma.</li>
+    <li><strong>Produtos sazonais ou limitados.</strong> Algumas ofertas únicas (por exemplo, acesso <strong>vitalício</strong>) podem ser vendidas apenas durante determinados períodos. <strong>Se você comprou quando disponível, poderá reter o direito de restaurar</strong> conforme as regras da plataforma e o comportamento do Aplicativo.</li>
+  </ul>
+
+  <h2>7. Plano Gratuito e Publicidade</h2>
+  <ul>
+    <li>O <strong>plano gratuito</strong> pode exibir <strong>anúncios de terceiros</strong> (por exemplo, do <strong>Google AdMob</strong>). A exibição de anúncios pode envolver práticas de dados descritas na nossa <a href="privacy-policy.html">Política de Privacidade</a> e nas políticas do parceiro de anúncios.</li>
+    <li>O <strong>Premium</strong> não exibe anúncios no aplicativo que controlamos.</li>
+    <li><strong>Consentimento.</strong> Quando exigido, o Aplicativo pode exibir um <strong>fluxo de consentimento</strong> antes de anúncios personalizados. Suas escolhas são gerenciadas por meio desse fluxo e das configurações do dispositivo/plataforma.</li>
+  </ul>
+
+  <h2>8. Serviços de Terceiros e Regras da Plataforma</h2>
+  <ul>
+    <li>O Aplicativo depende de <strong>serviços de terceiros</strong> (lojas, verificação de assinatura, anúncios, relatório de erros opcional, etc.). Os termos e políticas de privacidade deles <strong>também se aplicam</strong>. Consulte nossa <a href="privacy-policy.html">Política de Privacidade</a>.</li>
+    <li><strong>Apple.</strong> Se você usa a versão iOS, os <a href="https://www.apple.com/legal/internet-services/itunes/">Termos de Serviços de Mídia da Apple</a> podem se aplicar. A Apple não é responsável pelo conteúdo, manutenção ou suporte do Aplicativo.</li>
+    <li><strong>Google.</strong> Se você usa a versão Android, os termos do <strong>Google Play</strong> se aplicam à distribuição e a determinados assuntos de faturamento.</li>
+  </ul>
+
+  <h2>9. Seus Dados e Backups</h2>
+  <p>Os dados de treino e perfil são armazenados principalmente <strong>no seu dispositivo</strong>, conforme descrito na Política de Privacidade. <strong>Você é responsável</strong> por backups, exportações e segurança do dispositivo. <strong>Não nos responsabilizamos</strong> pela perda de dados no seu dispositivo, salvo se a lei obrigatória determinar o contrário.</p>
+
+  <h2>10. Uso Aceitável</h2>
+  <p>Você concorda em <strong>não</strong>:</p>
+  <ul>
+    <li>Usar o Aplicativo de forma ilegal ou prejudicial a terceiros;</li>
+    <li>Tentar coletar dados em massa, fazer engenharia reversa ou contornar paywalls ou limites técnicos de forma não autorizada;</li>
+    <li>Falsificar sua identidade ou usar indevidamente os canais de relatório de bugs ou contato;</li>
+    <li>Usar o Aplicativo para criar um modelo ou serviço concorrente extraindo dados em massa em violação destes Termos ou da lei aplicável.</li>
+  </ul>
+  <p>Podemos <strong>suspender ou encerrar</strong> o fornecimento do Aplicativo ou de determinados recursos se acreditarmos razoavelmente que você violou estes Termos ou a lei aplicável.</p>
+
+  <h2>11. Propriedade Intelectual</h2>
+  <p>O Aplicativo (código, design, marca e conteúdo original) é de propriedade da <strong>Bouncing Ball Entertainment</strong> ou de seus licenciadores. Concedemos a você uma licença <strong>pessoal, não exclusiva, intransferível e revogável</strong> para usar o Aplicativo conforme estes Termos e as regras da loja. Você não pode copiar, modificar, distribuir ou criar obras derivadas, exceto conforme <strong>permitido por lei</strong> ou com nossa <strong>permissão por escrito</strong>.</p>
+
+  <h2>12. Isenção de Garantias</h2>
+  <p>O Aplicativo é fornecido "no estado em que se encontra" e "conforme disponível." Na máxima extensão permitida por lei, isentamo-nos de todas as garantias, expressas, implícitas ou estatutárias, incluindo garantias implícitas de comercialização, adequação a uma finalidade específica e não violação.</p>
+  <p><strong>Não</strong> garantimos operação ininterrupta ou sem erros, que o conteúdo ou as sugestões sejam <strong>precisos</strong> ou <strong>adequados para você</strong>, ou que defeitos serão corrigidos. <strong>Algumas jurisdições não permitem</strong> certas isenções; nesses casos, as isenções se aplicam apenas na extensão permitida.</p>
+
+  <h2>13. Limitação de Responsabilidade</h2>
+  <p>Na máxima extensão permitida pela lei aplicável:</p>
+  <ul>
+    <li>A <strong>Bouncing Ball Entertainment</strong> e seus proprietários, contratados e afiliados <strong>não serão responsáveis</strong> por danos <strong>indiretos, incidentais, especiais, consequentes, exemplares ou punitivos</strong>, nem por <strong>perda de lucros, dados, fundo de comércio ou negócios</strong>, decorrentes do uso ou da incapacidade de uso do Aplicativo, <strong>mesmo que</strong> tenhamos sido informados sobre a possibilidade de tais danos.</li>
+    <li>A <strong>responsabilidade total</strong> por qualquer reivindicação é limitada ao <strong>maior valor entre</strong> (a) <strong>USD $50</strong> ou (b) o <strong>valor total que você nos pagou pelo Premium nos doze (12) meses</strong> anteriores ao evento que originou a reivindicação.</li>
+    <li><strong>Leis obrigatórias de defesa do consumidor</strong> no seu país podem <strong>não permitir</strong> algumas limitações; nesse caso, nossa responsabilidade é limitada ao <strong>mínimo</strong> ainda permitido.</li>
+  </ul>
+
+  <h2>14. Indenização</h2>
+  <p>Na extensão permitida por lei, você concorda em <strong>defender</strong>, <strong>indenizar</strong> e isentar de responsabilidade a Bouncing Ball Entertainment e seus proprietários, contratados e afiliados de <strong>reivindicações, danos, perdas e despesas</strong> (incluindo honorários advocatícios razoáveis) decorrentes do seu <strong>uso indevido</strong> do Aplicativo, da <strong>violação</strong> destes Termos ou da <strong>violação</strong> dos direitos de terceiros — exceto na extensão causada por nossa <strong>conduta dolosa</strong> ou onde a indenização <strong>não seja permitida</strong> por lei.</p>
+
+  <h2>15. Disputas; Lei Aplicável; Foro</h2>
+  <ul>
+    <li><strong>Resolução informal primeiro.</strong> Antes de apresentar uma reivindicação, entre em contato pelo e-mail <a href="mailto:bouncingballentertainment@gmail.com">bouncingballentertainment@gmail.com</a> e descreva a disputa; tentaremos resolvê-la de boa-fé.</li>
+    <li><strong>Lei aplicável.</strong> Salvo onde a <strong>lei local obrigatória</strong> exija o contrário, estes Termos são regidos pelas leis dos <strong>Estados Unidos</strong> e do <strong>estado americano onde a Bouncing Ball Entertainment está principalmente localizada</strong>, sem considerar regras de conflito de leis.</li>
+    <li><strong>Foro.</strong> Sujeito às <strong>proteções obrigatórias ao consumidor</strong>, você concorda que os tribunais do <strong>mesmo estado americano</strong> têm <strong>jurisdição pessoal</strong> para disputas — <strong>salvo</strong> se a lei aplicável lhe conferir o <strong>direito</strong> de processar no seu <strong>país de origem</strong>.</li>
+    <li><strong>Apple.</strong> Se você for um usuário Apple, os termos obrigatórios da Apple sobre disputas também podem se aplicar.</li>
+  </ul>
+  <p><strong>Ações coletivas.</strong> Onde <strong>permitido por lei</strong>, você e nós concordamos em apresentar reivindicações <strong>apenas individualmente</strong>. <strong>Algumas jurisdições proíbem</strong> renúncias a ações coletivas; se for o seu caso, esta cláusula não se aplica a você.</p>
+
+  <h2>16. Alterações no Aplicativo e nos Termos</h2>
+  <p>Podemos modificar o Aplicativo ou estes Termos. Atualizaremos a data de <strong>"Última atualização"</strong> ao alterar os Termos. Se uma alteração for <strong>relevante</strong>, forneceremos aviso <strong>onde exigido</strong>. O <strong>uso continuado</strong> após a data de entrada em vigor significa que você aceita os Termos revisados, exceto onde a lei aplicável exigir <strong>consentimento explícito</strong>.</p>
+
+  <h2>17. Rescisão</h2>
+  <p>Você pode parar de usar o Aplicativo a qualquer momento. Podemos <strong>suspender</strong> ou <strong>descontinuar</strong> o Aplicativo ou recursos. As <strong>cláusulas</strong> que por sua natureza devem sobreviver (limitações de responsabilidade, indenização, lei aplicável, resolução de disputas) <strong>sobrevivem</strong> à rescisão.</p>
+
+  <h2>18. Separabilidade; Acordo Integral</h2>
+  <p>Se qualquer disposição for <strong>inválida</strong> ou <strong>inexequível</strong>, o restante permanece em vigor. Estes Termos e a Política de Privacidade constituem o <strong>acordo integral</strong> entre você e nós em relação ao Aplicativo.</p>
+
+  <h2>19. Contato</h2>
+  <p><strong>E-mail:</strong> <a href="mailto:bouncingballentertainment@gmail.com">bouncingballentertainment@gmail.com</a><br>
+  <strong>Desenvolvedor:</strong> Bouncing Ball Entertainment</p>
+  <p><em>Ao usar o Volum, você reconhece que leu estes Termos e nossa Política de Privacidade, que compreende os riscos da atividade física e que usa o Aplicativo por sua conta e risco.</em></p>
+
+  <footer>
+    <a href="index.html">← Documentos Legais</a> · <a href="privacy-policy.html">Política de Privacidade</a>
+  </footer>
+</div>
+
+<!-- ═══════════════════════════════ ESPAÑOL ═══════════════════════════════ -->
+<div id="lang-es" class="lang-section">
+  <h1>Términos de Servicio — Volum</h1>
+  <p><em>Última actualización: 6 de mayo de 2026</em><br>
+  <strong>Aplicación:</strong> Volum<br>
+  <strong>Desarrollador:</strong> Bouncing Ball Entertainment<br>
+  <strong>Contacto:</strong> <a href="mailto:bouncingballentertainment@gmail.com">bouncingballentertainment@gmail.com</a><br>
+  <strong>Política de Privacidad:</strong> <a href="privacy-policy.html">privacy-policy.html</a> (mismo sitio)</p>
+
+  <p><strong>Importante:</strong> Estos Términos son un acuerdo práctico en lenguaje simple para usuarios y tiendas. <strong>No</strong> sustituyen el asesoramiento de un <strong>abogado calificado</strong> en tu país o estado de EE.UU., especialmente en materia de <strong>ley aplicable, jurisdicción, arbitraje</strong> y <strong>normas de consumo</strong>. Consulta a un abogado antes de usarlos para un lanzamiento comercial.</p>
+
+  <h2>1. Aceptación de los Términos</h2>
+  <p>Al descargar, instalar, acceder o usar Volum ("la <strong>Aplicación</strong>"), aceptas estos Términos de Servicio ("Términos") y nuestra <a href="privacy-policy.html">Política de Privacidad</a>. Si no estás de acuerdo, no uses la Aplicación.</p>
+  <p>Podemos ofrecer un <strong>plan gratuito</strong> (que puede incluir publicidad) y funciones <strong>de pago</strong> ("Premium" o similar). El uso de funciones de pago también está sujeto a las reglas de pago y suscripción de <strong>Apple</strong> / <strong>Google</strong>.</p>
+
+  <h2>2. Elegibilidad</h2>
+  <p>La Aplicación está destinada a usuarios que cumplan la <strong>edad mínima</strong> requerida en su jurisdicción (normalmente <strong>13 años o más</strong> en EE.UU., frecuentemente <strong>16 años</strong> o más en el EEE/Reino Unido para ciertos servicios). Si eres menor de esa edad, no uses la Aplicación. Si usas la Aplicación en nombre de una organización, declaras tener autoridad para vincularla.</p>
+
+  <h2>3. Naturaleza de la Aplicación</h2>
+  <p>Volum es una aplicación de <strong>seguimiento de entrenamientos y registro de actividad física</strong>. Te ayuda a registrar ejercicios, series, repeticiones, pesos, tiempos de descanso y progreso relacionado, y puede mostrar sugerencias <strong>en el dispositivo</strong> (por ejemplo, recomendaciones estilo "AI Coach") basadas en información <strong>almacenada en tu dispositivo</strong>.</p>
+  <p><strong>La Aplicación es solo para uso personal, informativo y organizacional.</strong> <strong>No</strong> es un dispositivo médico y <strong>no</strong> proporciona asesoramiento médico, clínico ni profesional.</p>
+
+  <h2>4. Sin Asesoramiento Médico ni Profesional</h2>
+  <ul>
+    <li>Nada en la Aplicación (incluido el AI Coach o cualquier recomendación) constituye <strong>asesoramiento médico</strong>, <strong>nutricional</strong> ni <strong>profesional</strong>.</li>
+    <li><strong>Consulta siempre a un profesional de salud o fitness calificado</strong> antes de iniciar o cambiar ejercicios, especialmente si tienes condiciones de salud, lesiones o preocupaciones.</li>
+    <li><strong>No</strong> uses la Aplicación para el diagnóstico, tratamiento o prevención de ninguna enfermedad o condición.</li>
+  </ul>
+
+  <h2>5. Asunción de Riesgos; Exención (Actividades Físicas)</h2>
+  <p><strong>La actividad física conlleva riesgos</strong> (p. ej., lesiones, agravamiento de condiciones existentes, eventos cardiovasculares). <strong>Asumes voluntariamente todos los riesgos</strong> relacionados con el uso de la Aplicación y cualquier ejercicio que realices, independientemente de si sigues o no las sugerencias mostradas en la Aplicación.</p>
+  <p><strong>En la máxima medida permitida por la ley aplicable</strong>, <strong>liberas</strong>, <strong>renuncias</strong> y <strong>eximes</strong> a Bouncing Ball Entertainment y a sus propietarios, contratistas y afiliados de <strong>reclamaciones, daños, pérdidas y responsabilidades</strong> de cualquier tipo derivados del uso de la Aplicación o de cualquier actividad física, incluyendo lesiones personales o muerte, excepto donde dicha exención esté <strong>prohibida</strong> por ley imperativa.</p>
+
+  <h2>6. Suscripciones, Compras y Pruebas</h2>
+  <ul>
+    <li><strong>Facturación.</strong> Las funciones de pago se venden a través de <strong>Apple App Store</strong> y/o <strong>Google Play</strong>. <strong>Apple</strong> y <strong>Google</strong> (no Bouncing Ball Entertainment) procesan los pagos. No recibimos tus datos completos de tarjeta.</li>
+    <li><strong>Precios, pruebas, renovación, cancelación y reembolsos</strong> están regidos por los <strong>términos de la plataforma</strong> y la configuración de tu cuenta en Apple o Google.</li>
+    <li><strong>Derechos de acceso.</strong> Podemos usar un tercero (por ejemplo, <strong>RevenueCat</strong>) para verificar el estado de la suscripción y "restaurar compras." Las funciones <strong>Premium</strong> se desbloquean solo mientras tu derecho de acceso sea válido según la tienda y la configuración de la Aplicación.</li>
+    <li><strong>Cambios.</strong> Podemos cambiar <strong>precios</strong>, <strong>funciones</strong> incluidas en Premium o <strong>límites del plan gratuito</strong> con aviso razonable donde lo exija la ley o las reglas de la plataforma.</li>
+    <li><strong>Productos estacionales o limitados.</strong> Algunas ofertas únicas (por ejemplo, acceso <strong>de por vida</strong>) pueden venderse solo durante ciertos periodos. <strong>Si compraste cuando estaba disponible, puedes conservar el derecho a restaurar</strong> según las reglas de la plataforma y el comportamiento de la Aplicación.</li>
+  </ul>
+
+  <h2>7. Plan Gratuito y Publicidad</h2>
+  <ul>
+    <li>El <strong>plan gratuito</strong> puede mostrar <strong>anuncios de terceros</strong> (por ejemplo, a través de <strong>Google AdMob</strong>). La entrega de anuncios puede implicar prácticas de datos descritas en nuestra <a href="privacy-policy.html">Política de Privacidad</a> y las políticas del socio publicitario.</li>
+    <li><strong>Premium</strong> no muestra anuncios dentro de la app que nosotros controlemos.</li>
+    <li><strong>Consentimiento.</strong> Donde sea requerido, la Aplicación puede mostrar un <strong>flujo de consentimiento</strong> antes de anuncios personalizados. Tus elecciones se gestionan a través de ese flujo y la configuración del dispositivo/plataforma.</li>
+  </ul>
+
+  <h2>8. Servicios de Terceros y Reglas de la Plataforma</h2>
+  <ul>
+    <li>La Aplicación depende de <strong>servicios de terceros</strong> (tiendas, verificación de suscripción, anuncios, reporte de fallos opcional, etc.). Sus términos y políticas de privacidad <strong>también aplican</strong>. Consulta nuestra <a href="privacy-policy.html">Política de Privacidad</a>.</li>
+    <li><strong>Apple.</strong> Si usas la versión iOS, los <a href="https://www.apple.com/legal/internet-services/itunes/">Términos de Servicios de Medios de Apple</a> pueden aplicar. Apple no es responsable del contenido, mantenimiento ni soporte de la Aplicación.</li>
+    <li><strong>Google.</strong> Si usas la versión Android, los términos de <strong>Google Play</strong> aplican a la distribución y ciertos asuntos de facturación.</li>
+  </ul>
+
+  <h2>9. Tus Datos y Copias de Seguridad</h2>
+  <p>Los datos de entrenamiento y perfil se almacenan principalmente <strong>en tu dispositivo</strong>, según se describe en la Política de Privacidad. <strong>Eres responsable</strong> de las copias de seguridad, exportaciones y seguridad del dispositivo. <strong>No somos responsables</strong> de la pérdida de datos en tu dispositivo, salvo que la ley imperativa disponga lo contrario.</p>
+
+  <h2>10. Uso Aceptable</h2>
+  <p>Aceptas <strong>no</strong>:</p>
+  <ul>
+    <li>Usar la Aplicación de forma ilegal o de manera que perjudique a otros;</li>
+    <li>Intentar recopilar datos en masa, realizar ingeniería inversa o eludir muros de pago o límites técnicos de forma no autorizada;</li>
+    <li>Falsificar tu identidad o hacer un uso indebido de los canales de reporte de errores o contacto;</li>
+    <li>Usar la Aplicación para crear un modelo o servicio competidor extrayendo datos en masa en violación de estos Términos o la ley aplicable.</li>
+  </ul>
+  <p>Podemos <strong>suspender o dejar de proporcionar</strong> la Aplicación o ciertas funciones si creemos razonablemente que has violado estos Términos o la ley aplicable.</p>
+
+  <h2>11. Propiedad Intelectual</h2>
+  <p>La Aplicación (código, diseño, marca y contenido original) es propiedad de <strong>Bouncing Ball Entertainment</strong> o sus licenciantes. Te otorgamos una licencia <strong>personal, no exclusiva, intransferible y revocable</strong> para usar la Aplicación conforme a estos Términos y las reglas de la tienda. No puedes copiar, modificar, distribuir ni crear obras derivadas excepto según lo <strong>permitido por ley</strong> o con nuestro <strong>permiso por escrito</strong>.</p>
+
+  <h2>12. Renuncia de Garantías</h2>
+  <p>La Aplicación se proporciona "tal cual" y "según disponibilidad." En la máxima medida permitida por ley, renunciamos a todas las garantías, expresas, implícitas o legales, incluyendo garantías implícitas de comerciabilidad, idoneidad para un propósito particular y no infracción.</p>
+  <p><strong>No</strong> garantizamos un funcionamiento ininterrumpido o sin errores, que el contenido o las sugerencias sean <strong>precisos</strong> o <strong>adecuados para ti</strong>, ni que los defectos se corregirán. <strong>Algunas jurisdicciones no permiten</strong> ciertas renuncias; en esos casos, las renuncias aplican solo en la medida permitida.</p>
+
+  <h2>13. Limitación de Responsabilidad</h2>
+  <p>En la máxima medida permitida por la ley aplicable:</p>
+  <ul>
+    <li><strong>Bouncing Ball Entertainment</strong> y sus propietarios, contratistas y afiliados <strong>no serán responsables</strong> por daños <strong>indirectos, incidentales, especiales, consecuentes, ejemplares o punitivos</strong>, ni por <strong>pérdida de ganancias, datos, fondo de comercio o negocios</strong>, derivados del uso o la imposibilidad de uso de la Aplicación, <strong>incluso si</strong> fuimos informados de que tales daños eran posibles.</li>
+    <li>La <strong>responsabilidad total</strong> por cualquier reclamación se limita al <strong>mayor de</strong> (a) <strong>USD $50</strong> o (b) el <strong>monto total que nos pagaste por Premium en los doce (12) meses</strong> anteriores al evento que dio lugar a la reclamación.</li>
+    <li>Las <strong>leyes imperativas de protección al consumidor</strong> en tu país pueden <strong>no permitir</strong> algunas limitaciones; en ese caso, nuestra responsabilidad se limita al <strong>mínimo</strong> aún permitido.</li>
+  </ul>
+
+  <h2>14. Indemnización</h2>
+  <p>En la medida permitida por ley, aceptas <strong>defender</strong>, <strong>indemnizar</strong> y eximir de responsabilidad a Bouncing Ball Entertainment y a sus propietarios, contratistas y afiliados de <strong>reclamaciones, daños, pérdidas y gastos</strong> (incluyendo honorarios razonables de abogados) derivados del <strong>uso indebido</strong> de la Aplicación, la <strong>violación</strong> de estos Términos o la <strong>violación</strong> de los derechos de terceros — excepto en la medida causada por nuestra <strong>conducta dolosa</strong> o donde la indemnización <strong>no esté permitida</strong> por ley.</p>
+
+  <h2>15. Disputas; Ley Aplicable; Jurisdicción</h2>
+  <ul>
+    <li><strong>Resolución informal primero.</strong> Antes de presentar una reclamación, contáctanos en <a href="mailto:bouncingballentertainment@gmail.com">bouncingballentertainment@gmail.com</a> y describe la disputa; intentaremos resolverla de buena fe.</li>
+    <li><strong>Ley aplicable.</strong> Salvo donde la <strong>ley local imperativa</strong> lo requiera de otra forma, estos Términos se rigen por las leyes de los <strong>Estados Unidos</strong> y las leyes del <strong>estado de EE.UU. donde Bouncing Ball Entertainment esté principalmente ubicada</strong>, sin tener en cuenta las normas de conflicto de leyes.</li>
+    <li><strong>Jurisdicción.</strong> Sujeto a las <strong>protecciones obligatorias al consumidor</strong>, aceptas que los tribunales de ese <strong>mismo estado de EE.UU.</strong> tengan <strong>jurisdicción personal</strong> para las disputas — <strong>salvo</strong> que la ley aplicable te otorgue el <strong>derecho</strong> a demandar en tu <strong>país de origen</strong>.</li>
+    <li><strong>Apple.</strong> Si eres usuario de Apple, los términos obligatorios de Apple sobre disputas también pueden aplicar.</li>
+  </ul>
+  <p><strong>Acciones colectivas.</strong> Donde lo <strong>permita la ley</strong>, tú y nosotros acordamos presentar reclamaciones <strong>solo de forma individual</strong>. <strong>Algunas jurisdicciones prohíben</strong> las renuncias a acciones colectivas; si es tu caso, esta cláusula no te aplica.</p>
+
+  <h2>16. Cambios en la Aplicación y los Términos</h2>
+  <p>Podemos modificar la Aplicación o estos Términos. Actualizaremos la fecha de <strong>"Última actualización"</strong> al cambiar los Términos. Si un cambio es <strong>significativo</strong>, proporcionaremos aviso <strong>donde sea requerido</strong>. El <strong>uso continuado</strong> tras la fecha de vigencia implica que aceptas los Términos revisados, excepto donde la ley aplicable requiera <strong>consentimiento explícito</strong>.</p>
+
+  <h2>17. Terminación</h2>
+  <p>Puedes dejar de usar la Aplicación en cualquier momento. Podemos <strong>suspender</strong> o <strong>discontinuar</strong> la Aplicación o funciones. Las <strong>secciones</strong> que por su naturaleza deben sobrevivir (limitaciones de responsabilidad, indemnización, ley aplicable, resolución de disputas) <strong>sobreviven</strong> a la terminación.</p>
+
+  <h2>18. Divisibilidad; Acuerdo Completo</h2>
+  <p>Si alguna disposición es <strong>inválida</strong> o <strong>inaplicable</strong>, el resto permanece en vigor. Estos Términos y la Política de Privacidad constituyen el <strong>acuerdo completo</strong> entre tú y nosotros respecto a la Aplicación.</p>
+
+  <h2>19. Contacto</h2>
+  <p><strong>Correo electrónico:</strong> <a href="mailto:bouncingballentertainment@gmail.com">bouncingballentertainment@gmail.com</a><br>
+  <strong>Desarrollador:</strong> Bouncing Ball Entertainment</p>
+  <p><em>Al usar Volum, reconoces que has leído estos Términos y nuestra Política de Privacidad, que comprendes los riesgos de la actividad física y que usas la Aplicación bajo tu propio riesgo.</em></p>
+
+  <footer>
+    <a href="index.html">← Documentos Legales</a> · <a href="privacy-policy.html">Política de Privacidad</a>
+  </footer>
+</div>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    event.target.classList.add('active');
+    localStorage.setItem('volum-legal-lang', lang);
+  }
+  (function() {
+    var saved = localStorage.getItem('volum-legal-lang');
+    if (saved && ['en','pt','es'].includes(saved)) setLang(saved);
+  })();
+</script>
 </body>
 </html>
